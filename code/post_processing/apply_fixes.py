@@ -228,5 +228,5 @@ print
 for stage in range(len(fixes_per_stage)):
     print 'Stage', stage, ':', fixes_per_stage[stage]
 
-# print final result for this dataset!
+# print final result for this dataset and check more details on that.
 get_final_results(args.database)
